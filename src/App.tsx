@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Col, Row } from "reactstrap";
+import PhoneKeyboard from "./components/PhoneKeyboard";
+import ContactList from "./components/ContactList";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row>
+        <Col lg={{ size: 4, offset: 2 }}>
+          <PhoneKeyboard />
+        </Col>
+        <Col lg="4">
+          <ContactList />
+        </Col>
+      </Row>
     </div>
   );
-}
+};
 
 export default App;
