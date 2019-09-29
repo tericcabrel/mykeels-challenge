@@ -11,6 +11,7 @@ import { keyboardButtonData } from "../../utils/helpers";
 import './phone-keyboard.css';
 
 const keyboardButtonReset: KeyboardButtonType = { letter: 'RESET', number: 'x' };
+const keyboardButtonDelete: KeyboardButtonType = { letter: 'DELETE', number: '<' };
 
 const PhoneKeyboard: React.FC<IPhoneKeyboard> = ({ onClick, value }) => {
   return (
@@ -32,6 +33,7 @@ const PhoneKeyboard: React.FC<IPhoneKeyboard> = ({ onClick, value }) => {
             }
           </div>
           <div className="keyboard-reset">
+            <KeyboardButton value={keyboardButtonDelete} onClick={onClick}/>
             <KeyboardButton value={keyboardButtonReset} onClick={onClick}/>
           </div>
         </div>

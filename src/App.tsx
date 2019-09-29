@@ -27,8 +27,12 @@ const App: React.FC = () => {
   }, []);
 
   const handleKeyboardClick = (keyboardButton: KeyboardButtonType) => {
-    if (keyboardButton.number === 'x') {
+    const { number } = keyboardButton;
+
+    if (number === 'x') {
       setKeyboardValue('');
+    } else if(number === '<') {
+      setKeyboardValue(keyboardValue.substring(0, keyboardValue.length - 1));
     } else {
       setKeyboardValue(`${keyboardValue}${keyboardButton.number}`);
     }

@@ -19,9 +19,6 @@
     text-align: center;
 }
 
-.phone-keyboard .keyboard-reset .keyboard-button {
-    margin-left: 40%;
-}
 .phone-keyboard .keyboard-reset .keyboard-button:hover {
     background-color: #ff0000;
     border-color: red;

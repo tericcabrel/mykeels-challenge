@@ -12,6 +12,14 @@ export const keyboardButtonData: KeyboardButtonType[] = [
   { number: '9', letter: 'WXYZ' },
 ];
 
+/**
+ * Filter array of contact based on keyword
+ *
+ * @param {ContactType[]} contacts
+ * @param {string} keyword
+ *
+ * @return ContactType[]
+ */
 export const filterContacts = (contacts: ContactType[], keyword: string): ContactType[] => {
   let regexString = '';
 
