@@ -5,6 +5,7 @@ import PhoneKeyboard from "./components/PhoneKeyboard";
 import ContactList from "./components/ContactList";
 
 import { ContactType, KeyboardButtonType } from "./types/data";
+import * as helpers from './utils/helpers';
 
 import './App.css';
 
@@ -35,7 +36,7 @@ const App: React.FC = () => {
 
   const filterContacts = (contacts: ContactType[], keyword: string): ContactType[] => {
     if (keyword.length > 0) {
-      return contacts;
+      return helpers.filterContacts(contacts, keyword);
     }
 
     return contacts;
