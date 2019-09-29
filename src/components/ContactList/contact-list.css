@@ -1,0 +1,14 @@
+.contact-list {
+    height: 83.5vh;
+    border: solid 1px #ffffff;
+    padding: 15px;
+}
+
+.contact-list .contact-list-header {
+
+}
+
+.contact-list .contact-list-body .list-group-item {
+    background: none;
+    cursor: default;
+}
