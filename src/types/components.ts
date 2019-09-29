@@ -1,4 +1,4 @@
-import { KeyboardButtonType } from "./data";
+import {ContactType, KeyboardButtonType} from "./data";
 
 export interface IKeyboardButton {
   value: KeyboardButtonType;
@@ -8,4 +8,8 @@ export interface IKeyboardButton {
 export interface IPhoneKeyboard {
   value: string;
   onClick: (value: KeyboardButtonType) => void;
+}
+
+export interface IContactList {
+  data: ContactType[];
 }

@@ -8,6 +8,11 @@
 
 }
 
+.contact-list .contact-list-body {
+    height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
 .contact-list .contact-list-body .list-group-item {
     background: none;
     cursor: default;
