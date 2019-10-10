@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feb373f585c6c32a2cae249fb4c27c05",
+    "revision": "343e08d01548ad746e1b266956a97de3",
     "url": "/mykeels-challenge/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mykeels-challenge/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "016c1d65fc1dadfcd8ae",
+    "revision": "81a6c2cfd1fd1c47c57f",
     "url": "/mykeels-challenge/static/css/main.338a72f2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mykeels-challenge/static/js/2.15c7cf7e.chunk.js"
   },
   {
-    "revision": "016c1d65fc1dadfcd8ae",
-    "url": "/mykeels-challenge/static/js/main.acc14211.chunk.js"
+    "revision": "81a6c2cfd1fd1c47c57f",
+    "url": "/mykeels-challenge/static/js/main.8e74a3aa.chunk.js"
   },
   {
     "revision": "405db86a53d25f3d8dff",

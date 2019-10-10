@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mykeels-challenge/precache-manifest.991cde7aed163e5e1b422a87d787e839.js"
+  "/mykeels-challenge/precache-manifest.29dc7077c2860f1e74b74ddaf35d143a.js"
 );
 
 self.addEventListener('message', (event) => {
